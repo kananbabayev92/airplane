@@ -10,4 +10,5 @@ def setup_logging():
             logging.StreamHandler()
         ]
     )
-    logging.info("Logging system initialized")  # Test message
+    logging.info("Logging system initialized")
+    
