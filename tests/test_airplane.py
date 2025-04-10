@@ -2,7 +2,7 @@ import unittest
 from models.airplane import Airplane
 
 class TestAirplane(unittest.TestCase):
-    def setup(self):
+    def setUp(self):
         # Create test airplane with 150 seats
         self.test_plane = Airplane("Boeing 737", 150)
 
